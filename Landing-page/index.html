@@ -7,8 +7,8 @@
     <title>landing-page</title>
   </head>
   <body>
-    <div class="bg-[#03050B] w-screen h-screen">
-      <nav class="text-white w-full h-20  flex items-center justify-between px-14 backdrop-blur-md border-b border-white/10 shadow-[0_10px_40px_rgba(0,0,0,0.6)]">
+    <div class="bg-[#03050B] w-screen h-screen flex items-center justify-center gap-10">
+      <nav class="text-white w-full h-20  flex items-center justify-between px-14 backdrop-blur-md border-b border-white/10 shadow-[0_10px_40px_rgba(0,0,0,0.6)] fixed top-0 left-0">
         <p class="text-3xl font-medium"><i class="fa-regular fa-gem text-[#5B3BFB]"></i>Basic</p>
         <ul class=" hidden -flexsm:hidden md:hidden lg:hidden xl:flex">
           <li class="px-3">Inicio</li>
@@ -17,14 +17,31 @@
           <li class="px-3">Sobre</li>
           <li class="px-3">Contactos</li>
         </ul>
-        <div class="flex items-center justify-center gap-3">
+        <div class="flex items-center justify-center gap-2">
           <button class=" hidden sm:hidden md:hidden lg:hidden xl:block">Entrar</button>
-          <button class=" hidden px-3 py-3 bg-[#5B3BFB] rounded sm:hidden md:hidden lg:hidden xl:block">Começar agora <i class="fa-solid fa-chevron-right"></i></button>
+          <button class=" hidden px-6 py-3 bg-[#5B3BFB] rounded sm:hidden md:hidden lg:hidden xl:block">Começar agora</button>
         </div>
         <div class="sm:block md:block lg:block xl:hidden">
           <i class="fa-solid fa-bars"></i>
         </div>
       </nav>
+      <div class="text-white w-110 h-90">
+        <div class="text-violet-500 bg-blur w-40 backdrop-blur-lg bg-white/5 py-1 px-2 rounded-2xl">Bem-vindo ao basic</div>
+        <h1 class="text-5xl text-white font-medium mt-5 mb-4">Soluções digitais que <span class="text-[#5B3BFB]">inpulsionam seus negócios</span></h1>
+        <p  class="text-gray-600 mb-4">Crias produtos e experiencias digitais modernas rapidas e escalaveis para levar a sua empresa ao proximo nivel</p>
+        <div>
+             <button class="px-8 py-3 bg-[#5B3BFB] rounded-lg mr-1">Começar agora</button>
+             <button class="px-8 py-3 border border-gray-600 rounded-lg">Falar com especialista</button>
+             
+
+        </div>
+
+      </div>
+      <div class="w-120 h-90 ">
+        <img src="assests/img/ChatGPT_Image_21_de_mai._de_2026__02_55_13-removebg-preview.png" alt="" class="w-full h-full object-cover xl:block lg:block">
+        
+      </div>
+
     </div>
     
     <script type="module" src="/src/main.js"></script>
