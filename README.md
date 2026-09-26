@@ -1,7 +1,7 @@
 # Landing_page_premium
 
 <p align="center">
-  <img src="Landing-page/assests/img/SharedScreenshot.jpg" alt="Preview" width="900">
+  <img src="Landing-page/assests/img/SharedScreenshot.jpg" alt="Preview">
 </p>
 
 
