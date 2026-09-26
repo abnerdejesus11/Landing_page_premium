@@ -1,5 +1,8 @@
 # Landing_page_premium
-![Preview](Landing-page/assests/img/SharedScreenshot.jpg)
+
+<p align="center">
+  <img src="Landing-page/assests/img/SharedScreenshot.jpg" alt="Preview" width="900">
+</p>
 
 
 # 🚀 Landing Page - Em Desenvolvimento
